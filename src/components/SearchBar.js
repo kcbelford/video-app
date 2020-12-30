@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const SearchBar = ({ onFormSubmit}) => {
-  const [ term, setTerm ] = useState('');
+  const [ term, setTerm ] = useState('pizza');
 
   const onSubmit = event => {
     event.preventDefault();
